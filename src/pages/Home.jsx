@@ -26,6 +26,10 @@ const Home = () => {
       </div>
       <hr className='border-[0.5px] border-gray-200 w-screen' />
       <div className='flex justify-between gap-10'>
+        <iframe src="https://ruasguruji.streamlit.app/?embedded=true" className='w-[90vw] h-[800px]'></iframe>
+      </div>
+      <hr className='border-[0.5px] border-gray-200 w-screen' />
+      <div className='flex justify-between gap-10'>
         <div className='flex flex-col gap-5 items-center'>
           <p className='text-4xl mb-10 font-bold'>File Upload Section</p>
           <label className='px-4 py-2 bg-black text-white rounded-xl' htmlFor="fileInput">Upload Docs(pdf and word files only)</label>
